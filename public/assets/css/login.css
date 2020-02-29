@@ -1,0 +1,427 @@
+.reg_text a {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600
+}
+input {
+	outline: none!important;
+	box-shadow: none!important
+}
+._logsec {
+	display: table;
+	height: 100%;
+	width: 100%
+}
+.al_midd {
+	vertical-align: middle;
+	display: table-cell
+}
+.logo-register img, .reg_header img {
+	height: 34px
+}
+.reg_header {
+	padding: 0px 0px 45px 0px;
+	text-align: center
+}
+#user_form {
+	width: 50%;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	height: 100vh;
+	z-index: 999;
+	color: #000;
+	transition: all .3s;
+	padding: 10px;
+	background-color: #fff;
+	overflow: auto;
+}
+#user_form .container {
+	width: 450px
+}
+#user_form.active {
+	left: 0;
+	-webkit-box-shadow: 0 0px 220px 0 rgba(79, 79, 79, 1);
+	-moz-box-shadow: 0 0px 220px 0 rgba(79, 79, 79, 1);
+	box-shadow: 0 0px 220px 0 rgba(79, 79, 79, 1);
+}
+#user_form .user .fa, #user_form .pass .fa {
+	font-size: 18px;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	color: #47ba99
+}
+#user_form .btn-login, ._reg-btn, .se_btn, .btn-facebook {
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0px;
+	height: 45px;
+	padding-left: 0;
+	padding-right: 0;
+	border: none;
+	width: 100%;
+	line-height: 35px;
+	background: #47ba99;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+	text-transform: uppercase
+}
+#user_form .pass, #user_form .user {
+	position: relative;
+	width: 100%
+}
+#user_form .pass input, #user_form .user input {
+	color: #000;
+	font-size: 16px;
+	border-radius: 0px;
+	height: 45px;
+	background-color: #f3f3f3;
+	border: none;
+	text-indent: 30px
+}
+#user_form h3, .register-form h3 {
+	font-size: 20px;
+	color: #848484;
+	margin-bottom: 35px
+}
+.btn-facebook {
+	background-color: #3b5998!important;
+	margin-top: 15px;
+	display: block;
+	clear: both
+}
+.reg_text {
+	font-size: 16px;
+	text-align: center
+}
+.reg_text a {
+	font-size: 20px;
+	color: #216175;
+	margin-top: 15px
+}
+.reg_text .forgot-pass {
+	font-size: 13px!important;
+	color: #47ba99;
+	margin-bottom: 25px;
+	display: block
+}
+#floating-label .form-group {
+	display: flex;
+	height: 55px;
+	margin-bottom: 20px
+}
+#floating-label .control-label {
+	font-size: 16px;
+	opacity: .6;
+	pointer-events: none;
+	position: absolute;
+	transform: translate3d(20px, 19px, 0) scale(1);
+	transform-origin: left top;
+	transition: 240ms
+}
+#floating-label .form-group.focused .control-label {
+	opacity: 1;
+	transform: translate3d(0, -17px, 0) scale(.75)
+}
+#floating-label .form-control {
+	align-self: flex-end
+}
+#floating-label .form-control::-webkit-input-placeholder {
+color:transparent;
+transition:240ms
+}
+#floating-label .form-control:focus::-webkit-input-placeholder {
+transition:none
+}
+#floating-label .form-group.focused .form-control::-webkit-input-placeholder {
+color:#bbb
+}
+#user_form #floating-label .control-label {
+	transform: translate3d(40px, 13px, 0) scale(1)
+}
+#user_form #floating-label .form-group.focused .control-label {
+	transform: translate3d(0, -18px, 0) scale(.75)
+}
+#user_form .pass  .form-control:focus, #user_form .user .form-control:focus {border-bottom: solid 2px #47ba99!important}
+
+
+
+
+.f-close {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 28px;
+	height: 28px;
+	opacity: .5
+}
+.f-close:hover {
+	opacity: 1
+}
+.f-close:after, .f-close:before {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 24px;
+	width: 2px;
+	background-color: #333
+}
+.f-close:before {
+	transform: rotate(45deg)
+}
+.f-close:after {
+	transform: rotate(-45deg)
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,.5);
+	z-index: 998;
+	opacity: 0
+}
+.overlay.active {
+	display: block;
+	opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	border: 1px solid #aaa;
+	font-size: 13px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-khtml-border-radius: 0;
+}
+.form-s2 .select2-container {
+	width: 100%!important
+}
+.form-s2 .select2-container .select2-selection--single {
+	height: 35px!important;
+	border: 1px solid #f6f6f6;
+	background-color: #f6f6f6;
+	color: #282828;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-khtml-border-radius: 0;
+	box-shadow: none;
+}
+.form-s2 .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+.form-s2 .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 35px;
+	width: 25px;
+}
+.selpluse .select2-container--default .select2-selection--single .select2-selection__arrow {
+	right: 40px;
+}
+#floating-label .select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #282828;
+}
+.select2-container--default .select2-selection--multiple {
+	border: 1px solid #E3E3E3;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-box-shadow: 0 2px 8px 0 rgba(79,79,79,.1);
+	-moz-box-shadow: 0 2px 8px 0 rgba(79,79,79,.1);
+	box-shadow: 0 2px 8px 0 rgba(79,79,79,.1);
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background-color: #206175;
+	border: 1px solid #206175;
+	margin-right: 7px;
+	margin-top: 7px;
+	padding: 0 5px;
+	color: #fff;
+	font-size: 11px
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #fff!important;
+	margin-right: 3px
+}
+.select2-container--default .select2-selection--multiple {
+	background-color: #f6f6f6;
+	box-shadow: none;
+	border: solid 1px #fff
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	border: none;
+	border-bottom: solid #003db6 2px;
+}
+.form-wrap textarea {
+	border: 1px solid #f6f6f6;
+	background-color: #f6f6f6;
+	color: #282828;
+	box-shadow: none;
+	font-size: 12px;
+}
+input, textarea {
+	outline: none!important
+}
+textarea {
+	resize: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#floating-label {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#floating-label .form-group .form-control {
+	border: none;
+	border: 1px solid #f6f6f6;
+	background-color: #f6f6f6;
+	box-shadow: none;
+	border-radius: 0;
+}
+#floating-label .form-group {
+	display: flex;
+	height: 54px;
+}
+#floating-label .form-control:focus {
+	border-color: #fff!important;
+	border-bottom: 2px solid #206175!important;
+}
+#floating-label .control-label {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	opacity: 0.4;
+	pointer-events: none;
+	position: absolute;
+	transform: translate3d(6px, 27px, 0) scale(1);
+	transform-origin: left top;
+	transition: 240ms;
+	color: #656565
+}
+#floating-label .form-group.focused .control-label {
+	opacity: 1;
+	transform: scale(0.75);
+	color: #282828;
+}
+#floating-label .form-control {
+	align-self: flex-end;
+}
+ #floating-label .form-control::-webkit-input-placeholder {
+ color: transparent;
+ transition: 240ms;
+}
+ #floating-label .form-control:focus::-webkit-input-placeholder {
+ transition: none;
+}
+ #floating-label .form-group.focused .form-control::-webkit-input-placeholder {
+ color: #282828;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+#user_form .container {
+	width: 370px
+}
+#user_form .pass input, #user_form .user input {
+	height: 42px;
+}
+#user_form #floating-label .control-label {
+	transform: translate3d(40px, 11px, 0) scale(1);
+}
+#floating-label .form-group {
+	height: 45px
+}
+.reg_text .forgot-pass {
+	margin-bottom: 25px;
+}
+.btn-login {
+	margin-top: 5px
+}
+#user_form .btn-login, ._reg-btn, .se_btn, .btn-facebook {
+	height: 42px;
+	line-height: 32px;
+}
+.logo-register img, .reg_header img {
+	height: 30px;
+}
+	
+#floating-label .control-label {
+    transform: translate3d(6px, 16px, 0) scale(1);
+}
+	
+}
+
+@media (max-width:992px) {
+#user_form .container {
+	width: 370px
+}
+}
+
+@media (max-width:767px) {
+#user_form {
+	width: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
+}
+}
+
+@media (max-width:639px) {
+#user_form .container {
+	width: 100%
+}
+.logo-register img, .reg_header img {
+	height: 28px;
+}
+#user_form .btn-login, ._reg-btn, .se_btn, .btn-facebook {
+	font-size: 14px
+}
+}
+.mb-5 {
+	margin-bottom: 5px!important
+}
+.mb-10 {
+	margin-bottom: 10px!important
+}
